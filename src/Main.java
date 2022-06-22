@@ -1,7 +1,7 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         int balance = 100;
-        int transfer = 1350;
+        int transfer = 900;
         boolean isLimitTransfer = (transfer > 1000);
         int bonus;
         if (isLimitTransfer) {
@@ -12,4 +12,4 @@ public class main {
         System.out.println("Итоговый баланс счета: " + (balance + transfer + bonus));
         System.out.println("Бонус: " + bonus);
     }
-    }
+}
